@@ -30,7 +30,7 @@ if not cap.isOpened():
     exit()
 
 CONFIDENCE_THRESHOLD = 0.4
-CROWD_THRESHOLD = 5 # Change as per requirement
+CROWD_THRESHOLD = 3 # Change as per requirement
 last_alert_time = 0
 alert_cooldown = 5  # 5 seconds cooldown
 alarm_playing = False
